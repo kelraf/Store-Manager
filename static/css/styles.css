@@ -582,7 +582,9 @@ form input[type="submit"]:hover {
 }
 
 @media (max-width: 500px) {
-
+    .details {
+        margin-top: 100px;
+    }
 }
 
 
@@ -590,3 +592,84 @@ form input[type="submit"]:hover {
 /* End of owner dashboard */
 
 /* End of styles for owner page */
+
+
+
+/* Store attendant dashboard styles */
+
+.attendant-banner {
+    height: 500px;
+    background: red;
+    padding-top: 10px;
+    margin-top: 90px;
+    background: url(../images/apple/apple-laptop-banner.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.815);
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 10%;
+    bottom: 50px;
+    color: white;
+}
+
+.circle h3 {
+    position: absolute;
+    bottom: 120px; 
+    left: 25%;
+}
+
+.circle h2 {
+    position: absolute;
+    bottom: 85px; 
+    left: 20%;
+    transform: scale(1.5)
+}
+
+.details {
+    z-index: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1px;
+}
+
+.detail {
+    background: green;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.side-info {
+    width: 40%;
+    height: auto;
+    background: red;
+    float: right;
+    margin-top: 40px;
+    margin-right: 5px;
+}
+
+.side-info table {
+    color: white;
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+/* End of store attendant dashboard */

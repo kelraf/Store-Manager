@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My DashBoard</title>
+    <link rel="stylesheet" href="../Static/css/styles.css">
+</head>
+<body>
+    
+        <div class="container-fluid first-header mt-1">
+    
+            <!-- Brand -->
+            <div class="brand first-header-cont">
+                <h1 class="text-center mt-1 mb-1">Store Manager</h1>
+            </div>
+    
+            <!-- Search  -->
+            <div class="search first-header-cont">
+    
+                <div class="form-cont">
+                <form> 
+                    <input type="text" placeholder="What Do You Want To look For" name="search" class="text-center">
+    
+                    <input type="submit" value="search">
+                </form>
+            </div>
+            </div>
+    
+            <!-- Account -->
+            <div class="account first-header-cont">
+                    <h1 class="text-center">Account</h1>
+                <ul class="account-list">
+                    <li><a href="Admin.html" class="link">Home</a></li>
+                    <li><a href="index.html" class="link">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container-fluid owner-dashboard-cont-1">
+            <div class="owner-dashboard-cont-1-1">
+                <!-- Total Amount -->
+                <h3>Total Amount</h3>
+                <h4>Kshs <span>00.00</span></h4>
+            </div>
+            <div class="owner-dashboard-cont-1-1">
+                <!-- Amount Received -->
+                <h3>Amount Received</h3>
+                <h4>Kshs <span>00.00</span></h4>
+            </div>
+            <div class="owner-dashboard-cont-1-1">
+                <a href="add_product.html" class="link link-owner">Update A Product</a>
+            </div>
+            <div class="owner-dashboard-cont-1-1">
+                <a href="add_product.html" class="link link-owner">Add A Product</a>
+            </div>
+            <div class="owner-dashboard-cont-1-1">
+                <a href="del_product.html" class="link link-owner">Delete A Product</a>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+
+        <!-- Products counter Available Products -->
+
+        <div class="products-counter-banner owner-dashboard-cont-2 mt-2">
+                <div class="products-info">
+    
+                    <!-- Table -->
+                    <table class="products-info-table">
+    
+                        <tr>
+                            <th colspan="5">Available Products</th>
+                        </tr>
+    
+                        <tr class="tr">
+                            <th>MacBook</th>
+                            <th>Lenovo</th>
+                            <th>Hp</th>
+                            <th>Acer</th>
+                            <th>Dell</th>
+                        </tr>
+                        <tr class="tr">
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+    
+                        <tr>
+                            <td colspan="5"><h4 class="table-d">Minimum Products Allowed</h4></td>
+                        </tr>
+    
+                        <!-- Minimum -->
+                        <tr class="tr">
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+    
+        <!-- End of product counter -->
+        </div>
+
+
+        <!-- Store Attendant nav -->
+        <div class="container-fluid force-mt-2">
+            <div class="container-fluid owner-dashboard-cont-1">
+                <div class="owner-dashboard-cont-1-1">
+                    <!-- Total Amount -->
+                    <h3>My Attendants</h3>
+                </div>
+                <div class="owner-dashboard-cont-1-1">
+                    <!-- Amount Received -->
+                    <h3>Number</h3>
+                    <h4>00</span></h4>
+                </div>
+                <div class="owner-dashboard-cont-1-1">
+                    <a href="create_attendant.html" class="link link-owner">Update Info</a>
+                </div>
+                <div class="owner-dashboard-cont-1-1">
+                    <a href="create_attendant.html" class="link link-owner">Add Attendant</a>
+                </div>
+                <div class="owner-dashboard-cont-1-1">
+                    <a href="del_attendant.html" class="link link-owner">Delete Attendant</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Store Attendant -->
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="attendants-info">
+                <div class="attendant-info">
+                    <h3>Name</h3>
+                </div>
+                <div class="attendant-info">
+                    <h3>Email</h3>
+                </div>
+                <div class="attendant-info">
+                    <h3>Id</h3>
+                </div>
+                <div class="attendant-info">
+                    <h3>Sales Worth</h3>
+                </div>
+            </div>
+
+
+            <!-- Values from The system -->
+            <div class="attendants-info">
+                <div class="attendant-info">
+                    <h4>Name</h4>
+                </div>
+                <div class="attendant-info">
+                    <h4>Email</h4>
+                </div>
+                <div class="attendant-info">
+                    <h4>Id</h4>
+                </div>
+                <div class="attendant-info">
+                    <h4>Sales Worth</h4>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

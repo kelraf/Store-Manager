@@ -673,3 +673,36 @@ form input[type="submit"]:hover {
     text-align: center;
 }
 /* End of store attendant dashboard */
+
+
+/* Cart Box  */
+
+.cart-box {
+    width: 50%;
+    height: auto;
+    padding: 2px;
+    background: green;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.cart-box-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1px;
+}
+
+.cart-box-item {
+    background: gray;
+}
+
+/* Transition */
+
+.cart:hover .cart-box {
+    background: red !important;
+}
+
+/* End of cart box */

@@ -1,0 +1,121 @@
+/* Login/Index and registration page */
+
+
+
+
+
+/* Responsive form pages */
+.r-form-container {
+    background-color: lightgray;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.r-row {
+    width: 100%;
+    height: auto;
+}
+
+.r-row h1{
+    text-align: center;
+    padding-top: 26px;
+    color: red;
+    font-size: 25px;
+}
+
+.form {
+    background: rgb(17, 14, 65);
+    padding: 5px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 5px;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.form-control-wrapper {
+    width: 100%;
+    /* background: green; */
+    height: auto;
+}
+
+.form-label {
+    display: block;
+    color: white;
+    padding-left: 5px;
+    padding-top: 10px;
+    text-align: center;
+    height: 40px;
+    font-size: 18px;
+}
+
+.form-input-text {
+    width: 99%;
+    height: 40px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: rgb(252, 250, 250);
+    transition: 0.5s ease;
+}
+
+.form-input-text:focus {
+    font-size: 21px;
+}
+
+.under-line {
+    background-color: rgb(255, 255, 255);
+    height: 0.2px;
+}
+
+.form-control-wrapper-button {
+    width: 50%;
+    margin: auto;
+}
+
+.submit-button {
+    height: 40px;
+    width: 100%;
+    border: 1.5px solid white;
+    border-radius: 8px;
+    margin-top: 10px;
+    color: white; 
+    background-color: transparent;
+    transition: 0.3s ease-out;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background-color: red;
+}
+
+@media (max-width: 600px) {
+    .r-form-container {
+        background-color: lightgray;
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+}
+
+/* End of responsive form pages */
+
+/* Lading page */
+.wrapper {
+    display: grid;
+    grid-template-rows: 1fr 6fr 1fr;
+    height: 100vh;
+}
+
+.wrapper > :nth-child(odd) {
+    background: blue;
+}
+
+/* End of lading page */
+
+
+
+/* End of Login  */
